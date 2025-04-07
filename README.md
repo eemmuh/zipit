@@ -8,9 +8,9 @@ It consists of two main classes: `HuffmanEncoder` for file compression and `Huff
 
 Features
 ------
-Compresses files using Huffman coding algorithm 
-Decompresses files back to original form
-Supports all file types (pdf, txt, png, etc.)
-Shows compression statistics
-Simple command-line interface
+* Compresses files using Huffman coding algorithm 
+* Decompresses files back to original form
+* Supports all file types (pdf, txt, png, etc.)
+* Shows compression statistics
+* Simple command-line interface
 
