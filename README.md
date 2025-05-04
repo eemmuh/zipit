@@ -17,9 +17,16 @@ Features
 
 How It Works
 ---------
-## Compression
+### Compression
 1. Builds character frequency dictionary
 2. Creates Huffman tree from frequencies
 3. Assigns optimal binary codes to each character
 4. Converts input file to compressed binary stream
 5. Saves compressed data with frequency table header
+
+### Decompression
+1. Extracts frequency data from compressed file
+2. Rebuilds original Huffman tree
+3. Translates binary stream back to original data
+4. Writes reconstructed file identical to original
+
