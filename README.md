@@ -14,3 +14,12 @@ Features
 * Shows compression statistics
 * Simple command-line interface
 
+
+How It Works
+---------
+## Compression
+1. Builds character frequency dictionary
+2. Creates Huffman tree from frequencies
+3. Assigns optimal binary codes to each character
+4. Converts input file to compressed binary stream
+5. Saves compressed data with frequency table header
